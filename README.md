@@ -2,12 +2,12 @@
 
 Step wizard component for Svelte
 
-##Install
+## Install
 ```bash
 npm i svelte-step-wizard
 ```
 
-##Example
+## Example
 ```svelte
 <script>
     import StepWizard from 'svelte-step-wizard'
