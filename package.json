@@ -1,20 +1,24 @@
 {
-  "name": "svelte-step-wizard",
+  "name": "svelte-steps-wizard",
   "version": "0.0.1",
   "description": "Step wizard component for Svelte",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "svelte": "src/index.js",
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup -c --bundleConfigAsCjs",
     "dev": "rollup -c -w"
   },
+  "keywords": [
+    "svelte",
+    "wizard"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JeanChuquispuma/svelte-step-wizard.git"
   },
   "author": "Jean Chuquispuma",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/JeanChuquispuma/svelte-step-wizard/issues"
   },
